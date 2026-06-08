@@ -22,7 +22,7 @@ namespace ToolbarExtension
             return (MainToolbarElement)Activator.CreateInstance(customType, new object[] { createElement });
         }
 
-        [MainToolbarElement("ToolbarExtension/Left", defaultDockPosition = MainToolbarDockPosition.Left)]
+        [MainToolbarElement("Toolbar Extension/Left", defaultDockPosition = MainToolbarDockPosition.Left)]
         static MainToolbarElement CreateLeftElement()
         {
             return CreateCustomElement(() =>
@@ -34,7 +34,7 @@ namespace ToolbarExtension
             });
         }
 
-        [MainToolbarElement("ToolbarExtension/Right", defaultDockPosition = MainToolbarDockPosition.Right)]
+        [MainToolbarElement("Toolbar Extension/Right", defaultDockPosition = MainToolbarDockPosition.Right)]
         static MainToolbarElement CreateRightElement()
         {
             return CreateCustomElement(() =>
