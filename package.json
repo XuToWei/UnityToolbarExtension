@@ -1,8 +1,8 @@
 {
   "name": "me.xw.toolbarextension",
   "version": "1.0.2",
-  "displayName": "ToolbarExtension",
-  "description": "better ToolbarExtension",
+  "displayName": "Toolbar Extension",
+  "description": "better Toolbar Extension",
   "repository": {
       "type": "git",
       "url": "https://github.com/XuToWei/ToolbarExtension.git"
